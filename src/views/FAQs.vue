@@ -59,7 +59,7 @@ export default {
         {
           id: "behappy",
           title: "How to be happy?",
-          text: `<img src='https://i.imgur.com/kvghSaj.gif'>`
+          text: `<img src='https://i.imgur.com/kvghSaj.gif' style='display:block; max-width: 100%;'>`
         }
       ]
     };
