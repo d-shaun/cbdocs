@@ -28,6 +28,11 @@ export default {
       current: null,
       howtos: [
         {
+          id: "invite",
+          title: "How do I invite this bot to my server?",
+          text: `Follow this url: <a href='https://discordapp.com/api/oauth2/authorize?client_id=636075999154536449&permissions=288832&scope=bot' target="_blank">https://discordapp.com/api/oauth2/authorize?client_id=636075999154536449&permissions=288832&scope=bot</a>.`
+        },
+        {
           id: "login",
           title: "How to login to/logout of the bot?",
           text:
