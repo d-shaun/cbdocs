@@ -33,6 +33,7 @@ const routes = [
 const router = new VueRouter({
   mode: "history",
   routes,
+  base: "/CrownBotDocs/",
   scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
       return {
