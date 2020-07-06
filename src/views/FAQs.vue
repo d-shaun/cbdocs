@@ -74,7 +74,7 @@ export default {
     if (hash) {
       hash = hash.slice(1);
       const index = this.howtos.findIndex(howto => howto.id.startsWith(hash));
-      if (index) this.current = index;
+      if (index > -1) this.current = index;
     }
   },
   methods: {
