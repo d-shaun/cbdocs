@@ -35,11 +35,11 @@
     </v-main>
     <v-bottom-navigation app class="hidden-lg-and-up">
       <v-list-item link v-for="item in items" :key="item.title" :to="item.link">
-        <v-list-item-icon>
+        <!-- <v-list-item-icon>
           <v-icon>{{item.icon}}</v-icon>
-        </v-list-item-icon>
+        </v-list-item-icon>-->
 
-        <v-list-item-content>
+        <v-list-item-content class="text-center">
           <v-list-item-title>{{item.title}}</v-list-item-title>
         </v-list-item-content>
       </v-list-item>
