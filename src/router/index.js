@@ -27,7 +27,7 @@ const routes = [
 const router = new VueRouter({
   mode: "history",
   routes,
-  base: "/cbdocs/",
+  base: process.env.NODE_ENV === "production" ? "/cbdocs/" : "/",
   scrollBehavior(to) {
     if (to.hash) {
       return {
