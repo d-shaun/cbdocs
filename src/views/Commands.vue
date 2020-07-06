@@ -53,9 +53,6 @@
 
 
 <script>
-// import get_commands from "../components/commands.js";
-// let commands = get_commands();
-// console.log(commands);
 export default {
   components: {},
   data() {
@@ -76,7 +73,6 @@ export default {
   },
   computed: {
     commands() {
-      console.log(this.$store.getters.public_commands);
       return this.$store.getters.public_commands;
     }
   }
