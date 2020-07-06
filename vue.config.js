@@ -1,6 +1,4 @@
 module.exports = {
-publicPath: process.env.NODE_ENV === "production" ? "/CrownBotDocs/" : "/",
-  "transpileDependencies": [
-    "vuetify"
-  ]
-}
+  publicPath: process.env.NODE_ENV === "production" ? "/cbdocs/" : "/",
+  transpileDependencies: ["vuetify"],
+};
