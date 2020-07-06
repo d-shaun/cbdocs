@@ -17,7 +17,7 @@
           .split("/")
           .slice(segment)
           .join("/");
-
+      sessionStorage.redirecthash = window.location.hash;
       location.replace(
         location.pathname
           .split("/")

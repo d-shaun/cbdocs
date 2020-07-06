@@ -28,8 +28,11 @@ new Vue({
   created() {
     if (sessionStorage.redirect) {
       const redirect = sessionStorage.redirect;
+      const hash = sessionStorage.redirecthash;
       delete sessionStorage.redirect;
+      delete sessionStorage.redirecthash;
       this.$router.push(redirect);
+      this.$router.push({ path: redirect, hash: hash });
     }
   },
 }).$mount("#app");
