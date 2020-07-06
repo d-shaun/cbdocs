@@ -28,11 +28,10 @@ const router = new VueRouter({
   mode: "history",
   routes,
   base: "/cbdocs/",
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to) {
     if (to.hash) {
       return {
         selector: to.hash,
-        // , offset: { x: 0, y: 10 }
       };
     }
   },
