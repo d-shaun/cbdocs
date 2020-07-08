@@ -1,4 +1,5 @@
 # CrownBot Documentation
+Commands and FAQs: https://d-shaun.github.io/cbdocs/.
 
 ## Project setup
 
