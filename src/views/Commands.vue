@@ -46,6 +46,12 @@
             <code>&{{example}}</code>
           </div>
         </div>
+
+        <div v-if="command.beta">
+          <v-divider class="my-2"></v-divider>
+          <v-icon small class="mr-2">mdi-alert</v-icon>This is a beta command; see
+          <router-link to="/faqs#beta">FAQ</router-link>.
+        </div>
       </v-card-text>
     </v-card>
   </v-container>
