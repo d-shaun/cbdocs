@@ -5,7 +5,7 @@
         <img src="https://i.imgur.com/a6zovhE.png" />
 
         <div class="text-h5">CrownBot</div>
-        <div class="text-subtitle-1 grey--text">A Discord bot with various Last.fm utilities.</div>
+        <div class="text-subtitle-1 grey--text">A Discord bot that uses the Last.fm API to track scrobbles and rank users.</div>
         <div class="my-4">
           <v-btn
             tile
